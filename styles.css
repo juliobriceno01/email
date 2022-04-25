@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+table {
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;  
+    /* learn^^^ */
+    background-color: azure;
+   padding-bottom: 40px;
+}
+.webkit {
+    max-width: 600px;
+    background-color: white;
+}
+.outer {
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    color: black;
+}
+.three-columns {
+    text-align: center;
+    font-size: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.three-columns .col {
+    width: 100%;
+    max-width: 100%;
+   display: inline-block; /* makes the tables align to one another*/
+  vertical-align: top; /* helps with this,  learn*/
+}
+.padding {
+    padding: 15px;
+
+}
+.three-columns .content {
+    font-size: 15px;
+    line-height: 20px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+/* body {
+    width: clamp(200px, 50%, 600px);
+} */
+@media screen and (max-width: 600px;) {
+    img.third-img {
+        
+    }
+    .padding {
+        padding-left: 0!important;
+        padding-right:0!important ;
+    }
+}
+@media screen and (max-width: 400px; ) {
+  img.third-img {
+width: 200px !important;
+max-width: 200px !important;
+  }
+}
